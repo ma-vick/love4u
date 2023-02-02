@@ -8,3 +8,5 @@ Posso dizer com toda certeza que apanhei bastante nesse projeto, mas foi muito d
 Aprendi sobre:
 - animações CSS
 - [accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)
+
+[acesse aqui o projeto.](https://ma-vick.github.io/love4u/)
