@@ -281,3 +281,13 @@ footer em {
       max-width: 80vw;
     }
 }
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1.1rem;
+  }
+
+  .panel {
+    padding: 0;
+  }
+}
