@@ -295,4 +295,9 @@ footer em {
     margin: 1rem;
     padding: 0.75rem;
   }
+
+  .our-story-description {
+    margin-left: 0;
+    line-height: 2rem;
+  }
 }
