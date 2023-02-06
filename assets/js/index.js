@@ -3,8 +3,11 @@ const text = document.querySelector('.msg-thanks');
 let accordion = document.getElementsByClassName('accordion');
 let i;
 
+text.style.visibility = 'hidden';
+
 heart.addEventListener('click', () => {
-  typeWriter(text);
+    text.style.visibility = 'visible';
+    typeWriter(text);
 });
 
 function typeWriter(elemento){
@@ -14,8 +17,6 @@ function typeWriter(elemento){
         setTimeout(() => elemento.innerHTML += letra, 75 * i);
     });
 }
-
-typeWriter(text);
 
 for(i = 0; i < accordion.length; i++){
   accordion[i].addEventListener('click', function() {
